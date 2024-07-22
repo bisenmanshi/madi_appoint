@@ -1,0 +1,22 @@
+{
+  "name": "medi-appoint",
+  "version": "2.0.0",
+  "description": "Doctor appointment website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Avish",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-decode": "^4.0.0",
+    "mongodb": "^5.9.2",
+    "mongoose": "^6.9.0",
+    "nodemailer": "^6.9.7"
+  }
+}
