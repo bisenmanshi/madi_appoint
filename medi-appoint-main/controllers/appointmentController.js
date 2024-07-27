@@ -2,10 +2,6 @@ const Appointment = require("../models/appointmentModel");
 const Notification = require("../models/notificationModel");
 const User = require("../models/userModel");
 const nodemailer=require("nodemailer");
-// const dotenv = require("dotenv");
-
-// Load environment variables
-// dotenv.config();
 
 const transporter = nodemailer.createTransport({
   service: "gmail",

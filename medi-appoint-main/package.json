@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Avish",
+  "author": "Manshi",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
